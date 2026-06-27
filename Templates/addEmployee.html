@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Employee Payroll</title>
+
+    <link rel="stylesheet" href="../Styles/addEmployee.css">
+
+</head>
+
+<body>
+
+   <!-- header -->
+
+    <div class="top-header">
+
+        <img
+            src="../Assets/Images/Emp-logo.jpeg"
+            class="logo">
+
+        <div class="logo-content">
+
+            <span class="logo-text">
+                EMPLOYEE
+            </span>
+
+            <span id="paycolor">
+                PAYROLL
+            </span>
+
+        </div>
+
+    </div>
+
+   <!-- form -->
+
+    <div class="container">
+
+        <h2 id="formTitle">
+            Employee Payroll Form
+        </h2>
+
+        <form id="employeeForm">
+
+            <!-- Name -->
+
+            <div class="form-group">
+
+                <label>Name</label>
+
+                <div class="input-field">
+
+                    <input
+                        type="text"
+                        id="name">
+
+                </div>
+
+            </div>
+
+            <!-- Profile Image -->
+
+            <div class="form-group">
+
+                <label>Profile Image</label>
+
+                <div class="input-field profile-group">
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="profile"
+                            value="../Assets/Images/new-logo-pro.webp">
+
+                        <img src="../Assets/Images/new-logo-pro.webp">
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="profile"
+                            value="../Assets/Images/female-avt.jpg">
+
+                        <img src="../Assets/Images/female-avt.jpg">
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="profile"
+                            value="../Assets/Images/new-logo.png">
+
+                        <img src="../Assets/Images/new-logo.png">
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="profile"
+                            value="../Assets/Images/female-avatar.jpg">
+
+                        <img src="../Assets/Images/female-avatar.jpg">
+
+                    </label>
+
+                </div>
+
+            </div>
+
+            <!-- Gender -->
+
+            <div class="form-group">
+
+                <label>Gender</label>
+
+                <div class="input-field">
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Male">
+
+                        Male
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Female">
+
+                        Female
+
+                    </label>
+
+                </div>
+
+            </div>
+
+            <!-- Department -->
+
+            <div class="form-group">
+
+                <label>Department</label>
+
+                <div class="input-field">
+
+                    <label>
+
+                        <input type="checkbox" value="HR">
+
+                        HR
+
+                    </label>
+
+                    <label>
+
+                        <input type="checkbox" value="Sales">
+
+                        Sales
+
+                    </label>
+
+                    <label>
+
+                        <input type="checkbox" value="Finance">
+
+                        Finance
+
+                    </label>
+
+                    <label>
+
+                        <input type="checkbox" value="Engineer">
+
+                        Engineer
+
+                    </label>
+
+                    <label>
+
+                        <input type="checkbox" value="Others">
+
+                        Others
+
+                    </label>
+
+                </div>
+
+            </div>
+
+            <!-- Salary -->
+
+            <div class="form-group">
+
+                <label>Salary</label>
+
+                <div class="input-field">
+
+                    <select id="salary">
+
+                        <option value="">Select Salary</option>
+
+                        <option value="30000">30000</option>
+
+                        <option value="50000">50000</option>
+
+                        <option value="70000">70000</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <!-- Start Date -->
+
+            <div class="form-group">
+
+                <label>Start Date</label>
+
+                <div class="input-field date-group">
+
+                    <select id="day">
+
+                        <option value="">Day</option>
+
+                    </select>
+
+                    <select id="month">
+
+                        <option value="">Month</option>
+
+                    </select>
+
+                    <select id="year">
+
+                        <option value="">Year</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <!-- Notes -->
+
+            <div class="form-group">
+
+                <label>Notes</label>
+
+                <div class="input-field">
+
+                    <textarea id="notes"></textarea>
+
+                </div>
+
+            </div>
+
+            <!-- Buttons -->
+
+            <div class="button-group">
+
+                <button
+                    type="button"
+                    id="cancelBtn">
+
+                    Cancel
+
+                </button>
+
+                <button
+                    type="reset">
+
+                    Reset
+
+                </button>
+
+                <button
+                    type="submit"
+                    id="submitBtn">
+
+                    Submit
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+
+    <script src="../Scripts/api.js"></script>
+
+    <script src="../Scripts/addEmployee.js"></script>
+
+</body>
+
+</html>
