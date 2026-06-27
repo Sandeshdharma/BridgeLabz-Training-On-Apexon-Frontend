@@ -1,0 +1,56 @@
+{
+  "employees": [
+    {
+      "profilePic": "../Assets/Images/new-logo-pro.webp",
+      "name": "Sandesh Raj",
+      "gender": "Male",
+      "department": [
+        "Engineer"
+      ],
+      "salary": "70000",
+      "startDate": "2013-09-18",
+      "notes": "",
+      "id": "ADuOw4jYmIs"
+    },
+    {
+      "profilePic": "../Assets/Images/female-avt.jpg",
+      "name": "Sanchi Tripathi",
+      "gender": "Female",
+      "department": [
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "50000",
+      "startDate": "2019-02-16",
+      "notes": "",
+      "id": "hgESaFWNvTI"
+    },
+    {
+      "profilePic": "../Assets/Images/new-logo.png",
+      "name": "Shailendra Srivastava",
+      "gender": "Male",
+      "department": [
+        "HR",
+        "Finance"
+      ],
+      "salary": "30000",
+      "startDate": "2010-11-17",
+      "notes": "",
+      "id": "VHBvt2MdjvM"
+    },
+    {
+      "profilePic": "../Assets/Images/new-logo.png",
+      "name": "Sarthak Sharma",
+      "gender": "Male",
+      "department": [
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "50000",
+      "startDate": "2013-09-29",
+      "notes": "",
+      "id": "Jyr4wOUtkcU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
