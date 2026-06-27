@@ -1,0 +1,302 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f7f7f7;
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+.top-header{
+
+    height:70px;
+
+    background:#fff;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 120px;
+
+    box-shadow:0 2px 5px rgba(0,0,0,.08);
+}
+
+.logo{
+
+    width:45px;
+
+    height:45px;
+}
+
+.logo-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    margin-left:12px;
+}
+
+.logo-text{
+
+    color:#82A70C;
+
+    font-size:20px;
+
+    font-weight:bold;
+}
+
+#paycolor{
+
+    color:#42515F;
+
+    font-size:20px;
+
+    font-weight:bold;
+}
+
+/* ==========================
+   FORM CONTAINER
+========================== */
+
+.container{
+
+    width:900px;
+
+    margin:40px auto;
+
+    background:#fff;
+
+    padding:40px 60px;
+
+    border-radius:8px;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+
+#formTitle{
+
+    color:#42515F;
+
+    margin-bottom:35px;
+
+    font-size:28px;
+
+    font-weight:600;
+}
+
+/* ==========================
+   FORM ROW
+========================== */
+
+.form-group{
+
+    display:grid;
+
+    grid-template-columns:180px 1fr;
+
+    align-items:center;
+
+    margin-bottom:28px;
+}
+
+.form-group label{
+
+    color:#42515F;
+
+    font-size:16px;
+
+    font-weight:500;
+}
+
+/* ==========================
+   INPUT AREA
+========================== */
+
+.input-field{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+}
+
+/* ==========================
+   INPUTS
+========================== */
+
+input[type=text],
+select,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #d5d5d5;
+
+    border-radius:4px;
+
+    outline:none;
+
+    font-size:15px;
+}
+
+textarea{
+
+    resize:none;
+
+    height:90px;
+}
+
+/* ==========================
+   PROFILE
+========================== */
+
+.profile-group{
+
+    gap:25px;
+}
+
+.profile-group label{
+
+    cursor:pointer;
+}
+
+.profile-group img{
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:2px solid transparent;
+
+    transition:.3s;
+}
+
+.profile-group input{
+
+    display:none;
+}
+
+/* Green Border */
+
+.profile-group input:checked + img{
+
+    border:3px solid #82A70C;
+}
+
+/* ==========================
+   GENDER
+========================== */
+
+.input-field label{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-weight:normal;
+}
+
+/* ==========================
+   DATE
+========================== */
+
+.date-group{
+
+    display:flex;
+
+    gap:15px;
+}
+
+.date-group select{
+
+    width:160px;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.button-group{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    margin-top:40px;
+}
+
+.button-group button{
+
+    width:150px;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+}
+
+/* Cancel */
+
+#cancelBtn{
+
+    background:#E2E2E2;
+
+    color:#42515F;
+}
+
+/* Reset */
+
+button[type="reset"]{
+
+    background:#969696;
+
+    color:#fff;
+}
+
+/* Submit */
+
+#submitBtn{
+
+    background:#82A70C;
+
+    color:#fff;
+}
+
+/* Hover */
+
+.button-group button:hover{
+
+    opacity:.9;
+}
