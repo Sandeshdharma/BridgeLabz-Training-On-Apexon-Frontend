@@ -174,13 +174,13 @@ http://localhost:3000/employees
 
 ### Dashboard
 
-![Dashboard](Assets/ScreenShots/Dashboard-Screenshot.jpeg)
+![Dashboard](Assets/ScreenShots/Dashboard-ScreenShot.jpeg)
 
 ---
 
 ### Add Employee Form
 
-![Add Employee Form](Assets/ScreenShots/AddEmployee-Form-Screenshot.jpeg)
+![Add Employee Form](Assets/ScreenShots/AddEmployee-Form-ScreenShot.jpeg)
 
 ## Learning Outcomes
 
